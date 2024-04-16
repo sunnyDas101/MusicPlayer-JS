@@ -1,0 +1,149 @@
+/* Initializing Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap");
+
+body {
+  background-color: #6d5d6e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar CSS */
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Ubuntu", sans-serif;
+  position: sticky;
+  top: 0;
+  height: 50px;
+  background-color: black;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 20px;
+  margin-right: 20px;
+}
+
+nav ul li {
+  padding: 0 12px;
+}
+
+.navList:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.brand img {
+  width: 100px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.brand span {
+  padding-right: 20px;
+}
+/* Navigation Bar CSS */
+
+/* Mid Section */
+h1 {
+  cursor: default;
+}
+
+.container {
+  min-height: 70vh;
+  background-color: black;
+  color: #fff;
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  width: 80%;
+  margin: 23px auto;
+  border-radius: 15px;
+  padding: 15px;
+  background-image: url("images/background-img.jpg");
+  background-size: 100%;
+}
+
+.songItem {
+  height: 50px;
+  display: flex;
+  background-color: #292a2c;
+  color: #fff;
+  width: 90%;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 25px;
+}
+
+.songItem img {
+  width: 44px;
+  margin: 0 23px;
+  border-radius: 23px;
+}
+
+.timestamp {
+  margin: 0 20px;
+  cursor: default;
+}
+
+.timestamp i {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.songItemContainer {
+  margin-top: 20px;
+}
+/* Mid Section */
+
+/* Bottom Section */
+.bottom {
+  position: sticky;
+  height: 72px;
+  background-color: black;
+  color: #fff;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icons {
+  margin-top: 14px;
+}
+
+.icons i {
+  padding: 0 4px;
+  cursor: pointer;
+}
+
+#myProgressBar {
+  width: 80vw;
+  cursor: pointer;
+}
+
+.songInfo {
+  position: absolute;
+  left: 10vw;
+  font-family: "Varela Round", sans-serif;
+}
+
+.songInfo img {
+  width: 40px;
+  padding-right: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+}
+/* Bottom Section */
